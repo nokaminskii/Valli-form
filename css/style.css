@@ -1,0 +1,203 @@
+.wrapper-wrapper {
+  max-width: 1400px;
+  height: 909px;
+  background-color: #707070;
+  margin: 0 auto;
+}
+
+.registr-body {
+  max-width: 1000px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px auto;
+  padding-top: 83px;
+  border-radius: 10px;
+}
+
+.regirst-body__img {
+  position: relative;
+  height: 700px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.text-up,
+.text-down {
+  position: absolute;
+}
+
+.text-up {
+  top: 27px;
+  left: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.text-down {
+  bottom: 57px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 350px;
+  padding-left: 37px;
+}
+
+.text-down::before {
+  content: "";
+  width: 17px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.regirst-body__img img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align-last: left;
+}
+
+.title__signup {
+  display: block;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.title__signin {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252525;
+}
+
+.blue {
+  color: #137ee0;
+  text-decoration: underline;
+}
+
+.form-wrapper {
+  width: 50%;
+  height: 700px;
+  padding: 80px 60px 0 60px;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.registr-body__form {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.registr-body__form p {
+  margin-bottom: 8px;
+  color: #737373;
+}
+
+input {
+  display: block;
+  height: 30px;
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* Remove outline on the forms and links */
+.form__item {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #292929;
+  width: 100%;
+}
+
+.username {
+  margin-bottom: 20px;
+  color: #bebebe;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+input:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+input::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+input::placeholder {
+  opacity: 0.5;
+}
+
+.button {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #292929;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.signup-btn {
+  text-align: center;
+}
+
+.signup-btn P {
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 19px;
+}
+
+.social-btn {
+  display: block;
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 1px solid #252525;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #252525;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.facebook-btn {
+  background-image: url(../img/facebook-logo.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  margin-top: 14px;
+}
+
+.google-btn {
+  background-image: url(../img/google-logo.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
